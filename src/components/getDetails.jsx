@@ -12,7 +12,7 @@ const GetDetails = () => {
        age:"",
        school:"",
        email:"",
-       emailList: ["kjhfda"]
+       emailList: []
    });
 
    const addName = (event) =>
@@ -75,10 +75,24 @@ const GetDetails = () => {
         </Form>
           
     </Container>
-        <div>
-    <h1>{details.emailList}</h1>
-        </div>
-      </div>
+    
+    <br/>
+    <Container>
+
+        <Row>
+            <Col className="bordert">
+    {details.emailList.map(x => (<h3>{x}</h3>))}
+            </Col>
+            <Col className="border">
+
+            </Col>
+            <Col className="border">
+
+            </Col>
+        </Row>
+       
+    </Container>
+    </div>
     )
 }
 

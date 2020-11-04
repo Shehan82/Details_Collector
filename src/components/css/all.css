@@ -5,3 +5,10 @@
     padding: 20px;
     width: 900px;
 }
+
+.bordert
+{
+    border: 2px solid black;
+    text-align: center;
+
+}
