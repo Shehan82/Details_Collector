@@ -4,7 +4,8 @@ const Names = (props) => {
 
     return(
         <div>
-            <h4>{this.props.nameList}</h4>
+            name
+            <h4>{props.nameList}</h4>
         </div>
     )
 }
